@@ -1,24 +1,11 @@
-### Halo, saya Ardha 👋
+Halo, saya Ardha. Saya membuat website dan mengurus server Linux untuk usaha kecil, sekolah, dan instansi. Sekarang saya bekerja di NOC sebuah penyedia internet di Jawa Timur, dan menerima proyek freelance di luar jam shift.
 
-**Web Developer & Linux VPS Specialist** · Website, VPS, dan otomasi laporan untuk UMKM, sekolah, dan bisnis lokal.
+Proyek yang paling mewakili pekerjaan saya:
 
-#### Yang saya kerjakan
-- 🌐 **Website** Laravel / Node.js – termasuk dwibahasa dan dashboard admin
-- 🖥️ **Setup & pengelolaan VPS Linux** – Ubuntu + aaPanel, SSL, firewall, backup
-- ⚙️ **Tools otomasi** – laporan PDF/Word otomatis, parsing data, enkripsi AES-256, bot
-- 🧪 **Pengujian aplikasi** – laporan Blackbox & Whitebox Testing, serta uji keamanan (vulnerability assessment / penetration testing) pada sistem yang **sudah diizinkan secara tertulis**
+- [djamoe-multi](https://github.com/asammanis89/djamoe-multi): website produk dua bahasa dengan halaman admin (Laravel)
+- [OLT-SECURE](https://github.com/asammanis89/OLT-SECURE): mengubah file konfigurasi OLT menjadi laporan PDF yang dikunci password (Node.js)
+- [iot-dashboard-web](https://github.com/asammanis89/iot-dashboard-web) dan [proyek_dapur_pintariot](https://github.com/asammanis89/proyek_dapur_pintariot): pemantau dapur berbasis sensor, versi web dan aplikasi Flutter
 
-#### Proyek pilihan
-| Proyek | Deskripsi |
-|---|---|
-| [OLT-SECURE](https://github.com/asammanis89/OLT-SECURE) | Konversi konfigurasi OLT menjadi PDF terenkripsi AES-256 |
-| [djamoe-multi](https://github.com/asammanis89/djamoe-multi) | Website company profile ID/EN + dashboard admin |
-| [proyek_dapur_pintariot](https://github.com/asammanis89/proyek_dapur_pintariot) | Aplikasi Flutter + IoT |
-| [iot-dashboard-web](https://github.com/asammanis89/iot-dashboard-web) | Dashboard IoT berbasis web |
-| [ENKRIP-KELOMPOK4](https://github.com/asammanis89/ENKRIP-KELOMPOK4) | Implementasi cipher klasik dengan Python |
+Sehari-hari saya memakai Laravel, Node.js, Python, Ubuntu dengan aaPanel, dan sedikit Flutter.
 
-#### Tech
-`Laravel` `Node.js` `Python` `Linux (Ubuntu)` `aaPanel` `Nginx` `MySQL` `Flutter` `Figma`
-
-#### Kontak
-💬 WhatsApp 081217529861 · 📧 febrianardha24@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/ardha-febrian-342317289/)
+Portofolio dan harga ada di [asammanis89.github.io](https://asammanis89.github.io). Untuk proyek, hubungi saya lewat WhatsApp [0857-5517-1491](https://wa.me/6285755171491) atau email febrianardha24@gmail.com.
