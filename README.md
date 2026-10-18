@@ -44,7 +44,7 @@ Aplikasi HP pemantau gas, suhu, dan kelembapan dapur, dengan notifikasi suara da
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/asammanis89/djamoe-multi"><img src="https://asammanis89.github.io/img/djamoe-admin.jpg" alt="djamoe-multi" width="100%"></a>
-<h4><a href="https://github.com/asammanis89/djamoe-multi">djamoe-multi</a> <sub>(kode terbuka)</sub></h4>
+<h4><a href="https://github.com/asammanis89/djamoe-multi">djamoe-multi</a> <sub>(studi kasus)</sub></h4>
 Website produk dua bahasa dengan dashboard admin untuk produk, artikel, dan outlet.<br><sub>Laravel 9, AdminLTE</sub>
 </td>
 <td width="50%" valign="top">
