@@ -12,6 +12,7 @@ Proyek terbaru, tools untuk operasional penyedia internet dan satu toko online:
 - [FieldOps](https://github.com/asammanis89/FieldOps): pemasangan baru, maintenance, dan alarm lapangan, dengan laporan Word dan PDF serta peta (Node.js, SQLite)
 - [PingMap](https://github.com/asammanis89/PingMap): memantau router di peta dan mengirim notifikasi Telegram saat mati atau pulih (Node.js, SQLite, Leaflet)
 - [GadgetBekas](https://github.com/asammanis89/GadgetBekas): toko HP bekas dengan katalog dan halaman admin produk (Laravel 12)
+- [ProxmoxMonitor](https://github.com/asammanis89/ProxmoxMonitor): studi kasus dashboard monitoring Proxmox dengan pemisahan RAM asli dan cache (tanpa kode, karena dipakai di lingkungan kerja)
 
 Sehari-hari saya memakai Laravel, Node.js, Python, Ubuntu dengan aaPanel, dan sedikit Flutter. Di NOC saya juga bekerja dengan Proxmox, RADIUS, dan perangkat OLT.
 
