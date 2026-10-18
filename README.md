@@ -8,8 +8,8 @@ Proyek yang paling mewakili pekerjaan saya:
 
 Proyek terbaru, tools untuk operasional penyedia internet dan satu toko online:
 
-- [Radiusin](https://github.com/asammanis89/Radiusin): manajemen RADIUS untuk ISP, dengan pool IP otomatis, profil kecepatan, sesi online, dan impor CSV (Node.js, PostgreSQL, FreeRADIUS, Docker)
-- [FieldOps](https://github.com/asammanis89/FieldOps): pemasangan baru, maintenance, dan alarm lapangan, dengan laporan Word dan PDF serta peta (Node.js, SQLite)
+- [Radiusin](https://github.com/asammanis89/Radiusin): studi kasus manajemen RADIUS untuk ISP, dengan pool IP otomatis, profil kecepatan, sesi online, dan impor CSV (Node.js, PostgreSQL, FreeRADIUS, Docker; tanpa kode)
+- [FieldOps](https://github.com/asammanis89/FieldOps): studi kasus pemasangan baru, maintenance, dan alarm lapangan, dengan laporan Word dan PDF serta peta (Node.js, SQLite; tanpa kode)
 - [PingMap](https://github.com/asammanis89/PingMap): memantau router di peta dan mengirim notifikasi Telegram saat mati atau pulih (Node.js, SQLite, Leaflet)
 - [GadgetBekas](https://github.com/asammanis89/GadgetBekas): toko HP bekas dengan katalog dan halaman admin produk (Laravel 12)
 - [ProxmoxMonitor](https://github.com/asammanis89/ProxmoxMonitor): studi kasus dashboard monitoring Proxmox dengan pemisahan RAM asli dan cache (tanpa kode, karena dipakai di lingkungan kerja)
