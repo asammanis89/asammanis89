@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Ardha Febrian: web developer, Linux VPS, NOC">
+<style>
+  .mono{font-family:ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+  .sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+  .code{fill:#8a9bc0;font-size:15px;opacity:0;animation:fade .4s ease-out forwards}
+  .c2{animation-delay:.25s}.c3{animation-delay:1.9s}
+  .wipe{transform-box:fill-box;transform-origin:0 0;transform:scaleX(0);animation:wipe 1.1s cubic-bezier(.05,.7,.1,1) .45s forwards}
+  .sub{opacity:0;animation:fade .6s ease-out 1.4s forwards}
+  .caret{animation:blink 1s steps(1) infinite}
+  .link{fill:none;stroke:url(#lk);stroke-width:2;stroke-dasharray:6 10;animation:march 1.4s linear infinite}
+  .ring{fill:none;stroke:#67E8F9;stroke-width:1.6;transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite}
+  .r2{animation-delay:.6s}.r3{animation-delay:1.2s}.r4{animation-delay:1.8s}
+  .star{animation:tw 4s ease-in-out infinite}
+  @keyframes fade{to{opacity:1}}
+  @keyframes wipe{to{transform:scaleX(1)}}
+  @keyframes blink{50%{opacity:0}}
+  @keyframes march{to{stroke-dashoffset:-32}}
+  @keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(5);opacity:0}}
+  @keyframes tw{50%{opacity:.15}}
+  @media (prefers-reduced-motion:reduce){
+    .code,.sub{animation:none;opacity:1}
+    .wipe{animation:none;transform:none}
+    .caret,.link,.ring,.star{animation:none}
+  }
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1430"/><stop offset=".55" stop-color="#070b18"/><stop offset="1" stop-color="#140d2c"/></linearGradient>
+  <linearGradient id="nm" x1="0" x2="1"><stop offset="0" stop-color="#67E8F9"/><stop offset=".55" stop-color="#A78BFA"/><stop offset="1" stop-color="#F0ABFC"/></linearGradient>
+  <linearGradient id="lk" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#22D3EE" stop-opacity=".35"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  <clipPath id="nameclip"><rect class="wipe" x="60" y="70" width="640" height="110"/></clipPath>
+  <path id="p0" d="M790 190 Q848 98 905 140"/>
+  <path id="p1" d="M905 140 Q968 48 1030 90"/>
+  <path id="p2" d="M1030 90 Q1078 48 1125 175"/>
+  <path id="p3" d="M905 140 Q1015 98 1125 175"/>
+</defs>
+
+<rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+<circle cx="980" cy="130" r="230" fill="url(#glow)"/>
+
+<g fill="#d7e6ff">
+  <circle class="star" cx="640" cy="40" r="1.2"/><circle class="star" cx="720" cy="80" r="1" style="animation-delay:1s"/>
+  <circle class="star" cx="1160" cy="40" r="1.4" style="animation-delay:2s"/><circle class="star" cx="860" cy="30" r="1" style="animation-delay:.5s"/>
+  <circle class="star" cx="1080" cy="250" r="1.2" style="animation-delay:1.5s"/><circle class="star" cx="560" cy="260" r="1" style="animation-delay:3s"/>
+</g>
+
+<!-- teks -->
+<text class="mono code" x="60" y="62">&lt;h1&gt;</text>
+<g clip-path="url(#nameclip)">
+  <text class="sans" x="60" y="150" font-size="76" font-weight="800" fill="#ffffff" letter-spacing="-2">Ardha <tspan fill="url(#nm)">Febrian</tspan></text>
+</g>
+<text class="mono code c3" x="60" y="190">&lt;/h1&gt;</text>
+<g class="sub">
+  <text class="mono" x="60" y="232" font-size="20" fill="#67E8F9">Web Developer · Linux VPS · NOC<tspan class="caret" fill="#67E8F9">▌</tspan></text>
+  <text class="sans" x="60" y="264" font-size="16" fill="#A9B7D3">Laravel · Node.js · Python · Ngawi, Jawa Timur</text>
+</g>
+
+<!-- jaringan -->
+<g>
+  <use href="#p0" class="link"/><use href="#p1" class="link"/><use href="#p2" class="link"/><use href="#p3" class="link"/>
+  <g fill="#CFFAFE">
+    <circle r="3"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#p0"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.4s" begin="1s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.1s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="4s" begin="1.2s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+  </g>
+  <g stroke="#7f95c9" stroke-opacity=".7" stroke-width="1.4" fill="#101a35">
+    <polygon points="780,290 790,190 800,290"/><polygon points="893,290 905,140 917,290"/>
+    <polygon points="1016,290 1030,90 1044,290"/><polygon points="1113,290 1125,175 1137,290"/>
+  </g>
+  <circle class="ring" cx="790" cy="190" r="4"/><circle class="ring r2" cx="905" cy="140" r="4"/>
+  <circle class="ring r3" cx="1030" cy="90" r="4"/><circle class="ring r4" cx="1125" cy="175" r="4"/>
+  <g fill="#E0FBFF"><circle cx="790" cy="190" r="4.5"/><circle cx="905" cy="140" r="4.5"/><circle cx="1030" cy="90" r="4.5"/><circle cx="1125" cy="175" r="4.5"/></g>
+</g>
+</svg>
